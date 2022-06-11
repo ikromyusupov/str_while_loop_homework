@@ -7,4 +7,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    j = 0
+    while i < len(s):
+        if s[0].isalpha() and s[0].lower() not in "aeiou":
+            j+=1    
+        i+=1
+    return j

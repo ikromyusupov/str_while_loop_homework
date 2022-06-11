@@ -10,7 +10,7 @@ def main(s):
     i = 0
     j = 0
     while i < len(s):
-        if s[0].isalpha() and s[0].lower() not in "aeiou":
+        if s[i].isalpha() and s[i].lower() not in "aeiou":
             j+=1    
         i+=1
     return j
